@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background: #1b1b1b;
+      }
+
+      * {
+        color: white;
+        padding: 0;
+        margin: 0;
+      }
+
+      #container {
+        height: 350px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+      }
+
+      #heading {
+        font-size: 25px;
+        padding-top: 15px;
+        padding-bottom: 2px;
+      }
+
+      #guide {
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 200;
+      }
+
+      #word {
+        font-size: 30px;
+        font-weight: 700;
+        padding-top: 15px;
+        color: rgb(107, 66, 255);
+      }
+
+      ul {
+        padding-bottom: 20px;
+        padding-top: 10px;
+      }
+
+      li {
+        font-size: 12px;
+        text-align: left;
+        padding: 5px 20px;
+        list-style-type: none;
+      }
+    </style>
+    <title>popup</title>
+  </head>
+  <body>
+    <div id="container">
+      <h3 id="heading">Definitions</h3>
+      <p id="guide">Select a word to see the definition</p>
+      <h3 id="word"></h3>
+      <p id="def"></p>
+      <ul id="definitionList"></ul>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
