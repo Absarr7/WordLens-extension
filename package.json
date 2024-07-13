@@ -1,5 +1,5 @@
 {
-  "name": "word-definition-and-translate-extension",
+  "name": "wordlens",
   "version": "1.0.0",
   "description": "select any word to get it's definition and translate it in other languages.",
   "main": "manifest.json",

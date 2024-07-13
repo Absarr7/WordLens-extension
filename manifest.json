@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Word Definition & Translate",
+    "name": "WordLens",
     "description": "select words to see definition and translate",
     "version": "1.0",
 
